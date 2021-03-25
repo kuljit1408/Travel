@@ -1,0 +1,51 @@
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+
+    }
+    .navbar{
+        flex-direction: column;
+        transform: all 0.7s ease-out;
+        height: 450px;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 80px;
+    }
+    .burger{
+        display: block;
+    }
+    .heightnav{
+        height: 72px;
+    }
+    .visible-class{
+        opacity: 0;
+
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-sm{
+        text-align: center;
+    }
+    .text-bg{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding:0 1px;
+    }
+    #youtube-frame{
+        width: 150px;
+        height: 150px;
+     margin: 150px;
+    }
+}
